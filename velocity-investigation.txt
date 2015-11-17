@@ -1,0 +1,44 @@
+Velocity
+----------
+
+
+- I didn't find a way to generate code coverage reports.
+
+
+- Since November 9th, the Velocity framework is no longer maintained. And the Meteor Development Group is choosing an new official testing framework.
+
+- Other frameworks: Tinytest, Laika (archived), Gagarin (still under heavy development)
+
+
+meteor --production
+meteor --production --verbose
+
+
+export SELENIUM_BROWSER=phantomjs
+
+-  can't use chrome locally:
+	chromedriver: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.15' not found
+
+
+meteor --test
+meteor run --test
+
+
+
+
+Velocity + Cucumber:
+
+http://www.meteortesting.com/chapter/velocity
+https://chimp.readme.io/docs
+http://g00glen00b.be/e2e-testing-your-meteor-app-with-cucumber-webdriverio-and-chai/
+http://www.mhurwi.com/a-basic-cucumber-meteor-tutorial/
+https://github.com/mhurwi/cucumber-meteor-tutorial
+https://github.com/xolvio/Letterpress
+http://joshowens.me/cucumber-js-and-meteor-the-why-and-how-of-it/
+
+
+
+StarryNight:
+
+http://starrynight.meteor.com/
+https://github.com/awatson1978/meteor-cookbook/blob/master/cookbook/writing.acceptance.test.md
