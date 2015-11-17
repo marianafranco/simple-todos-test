@@ -42,3 +42,15 @@ StarryNight:
 
 http://starrynight.meteor.com/
 https://github.com/awatson1978/meteor-cookbook/blob/master/cookbook/writing.acceptance.test.md
+
+
+
+
+
+
+npm install starrynight -g
+starrynight generate-autoconfig
+starrynight scaffold --framework nightwatch
+
+starrynight run-tests --framework nightwatch --env phantomjs
+starrynight run-tests --framework nightwatch --env saucelabs

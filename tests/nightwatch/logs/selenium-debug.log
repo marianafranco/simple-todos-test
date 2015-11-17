@@ -1,0 +1,37 @@
+16:11:56.789 INFO - Launching a standalone server
+Setting system property webdriver.chrome.driver to /home/mramosf/.nvm/v0.10.38/lib/node_modules/starrynight/node_modules/chromedriver/bin/chromedriver
+16:11:56.867 INFO - Java: IBM Corporation 2.6
+16:11:56.867 INFO - OS: Linux 2.6.32-573.3.1.el6.x86_64 amd64
+16:11:56.879 INFO - v2.45.0, with Core v2.45.0. Built from revision 5017cb8
+16:11:56.994 INFO - Default driver org.openqa.selenium.ie.InternetExplorerDriver registration is skipped: registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match with current platform: LINUX
+16:11:57.036 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+16:11:57.037 INFO - Version Jetty/5.1.x
+16:11:57.038 INFO - Started HttpContext[/selenium-server/driver,/selenium-server/driver]
+16:11:57.039 INFO - Started HttpContext[/selenium-server,/selenium-server]
+16:11:57.039 INFO - Started HttpContext[/,/]
+16:11:57.259 INFO - Started org.openqa.jetty.jetty.servlet.ServletHandler@d26802c5
+16:11:57.259 INFO - Started HttpContext[/wd,/wd]
+16:11:57.270 INFO - Started SocketListener on 0.0.0.0:4444
+16:11:57.270 INFO - Started org.openqa.jetty.jetty.Server@623b8c65
+16:11:57.624 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=phantomjs, rotatable=false, phantomjs.binary.path=/home/mramosf/.nvm/v0.10.38/lib/node_modules/starrynight/node_modules/phantomjs/bin/phantomjs, locationContextEnabled=false, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@ae08fc96, databaseEnabled=false, browserConnectionEnabled=false, name=App Layout, nativeEvents=false, webStorageEnabled=false, applicationCacheEnabled=false}]])
+16:11:57.655 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=phantomjs, rotatable=false, phantomjs.binary.path=/home/mramosf/.nvm/v0.10.38/lib/node_modules/starrynight/node_modules/phantomjs/bin/phantomjs, locationContextEnabled=false, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@ae08fc96, databaseEnabled=false, browserConnectionEnabled=false, name=App Layout, nativeEvents=false, webStorageEnabled=false, applicationCacheEnabled=false}]
+16:11:57.663 INFO - executable: /home/mramosf/.nvm/v0.10.38/lib/node_modules/starrynight/node_modules/phantomjs/bin/phantomjs
+16:11:57.664 INFO - port: 27566
+16:11:57.664 INFO - arguments: [--webdriver=27566, --webdriver-logfile=/home/mramosf/github/meteor/simple-todos/phantomjsdriver.log]
+16:11:57.664 INFO - environment: {}
+PhantomJS is launching GhostDriver...
+[INFO  - 2015-11-17T18:11:58.258Z] GhostDriver - Main - running on port 27566
+[INFO  - 2015-11-17T18:11:58.499Z] Session [b13d5a00-8d56-11e5-ae20-8bb64c072029] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-11-17T18:11:58.499Z] Session [b13d5a00-8d56-11e5-ae20-8bb64c072029] - page.customHeaders:  - {}
+[INFO  - 2015-11-17T18:11:58.499Z] Session [b13d5a00-8d56-11e5-ae20-8bb64c072029] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-11-17T18:11:58.499Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b13d5a00-8d56-11e5-ae20-8bb64c072029
+16:11:58.562 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=phantomjs, rotatable=false, phantomjs.binary.path=/home/mramosf/.nvm/v0.10.38/lib/node_modules/starrynight/node_modules/phantomjs/bin/phantomjs, locationContextEnabled=false, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@ae08fc96, databaseEnabled=false, browserConnectionEnabled=false, name=App Layout, nativeEvents=false, webStorageEnabled=false, applicationCacheEnabled=false}]]
+16:11:58.569 INFO - Executing: [get: http://localhost:3000])
+16:11:58.813 INFO - Done: [get: http://localhost:3000]
+16:11:58.821 INFO - Executing: [set window size])
+16:11:58.869 INFO - Done: [set window size]
+16:11:58.874 INFO - Executing: [find elements: By.cssSelector: body])
+16:11:59.004 INFO - Done: [find elements: By.cssSelector: body]
+16:11:59.008 INFO - Executing: [delete session: 50f852ea-f399-4637-8544-430472328acc])
+[INFO  - 2015-11-17T18:11:59.055Z] ShutdownReqHand - _handle - About to shutdown
+16:11:59.606 INFO - Done: [delete session: 50f852ea-f399-4637-8544-430472328acc]
