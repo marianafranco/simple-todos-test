@@ -1,5 +1,5 @@
-Velocity
-----------
+Velocity:
+---------
 
 
 - I didn't find a way to generate code coverage reports.
@@ -14,8 +14,6 @@ meteor --production
 meteor --production --verbose
 
 
-export SELENIUM_BROWSER=phantomjs
-
 -  can't use chrome locally:
 	chromedriver: /usr/lib64/libstdc++.so.6: version `GLIBCXX_3.4.15' not found
 
@@ -27,6 +25,7 @@ meteor run --test
 
 
 Velocity + Cucumber:
+--------------------
 
 http://www.meteortesting.com/chapter/velocity
 https://chimp.readme.io/docs
@@ -37,12 +36,52 @@ https://github.com/xolvio/Letterpress
 http://joshowens.me/cucumber-js-and-meteor-the-why-and-how-of-it/
 
 
+export SELENIUM_BROWSER=phantomjs
+SELENIUM_BROWSER=firefox meteor --test
+
+export JASMINE_SERVER_UNIT=0
+export JASMINE_SERVER_INTEGRATION=0
+export JASMINE_CLIENT_UNIT=0
+export JASMINE_CLIENT_INTEGRATION=0
+
+JASMINE_BROWSER=PhantomJS
+JASMINE_BROWSER=PhantomJS meteor 
+
+
+
+
+meteor remove xolvio:cucumber
+
+npm install velocity-cli -g
+velocity test-app --ci
+
+VELOCITY_CI=1 meteor --test
+
+
+- This did not work (fixtures are not loaded):
+npm install -g chimp
+chimp --browser=firefox
+
+chimp --host=ondemand.saucelabs.com --port=80 --user=sauce_lab_user --key=sauce_lab_key --name=simple_todos_test
+
+
+
+export CHIMP_OPTIONS="--browser=phantomjs"
+export VELOCITY_CI=1
+export CUCUMBER_TAGS=~@chrome
+export VELOCITY_DEBUG=1
+export CUCUMBER_TAIL=1
+meteor --test
+
+export CHIMP_OPTIONS="--host=ondemand.saucelabs.com --port=80 --user=sauce_lab_user --key=sauce_lab_key --name=simple_todos_test"
+
 
 StarryNight:
+------------
 
 http://starrynight.meteor.com/
 https://github.com/awatson1978/meteor-cookbook/blob/master/cookbook/writing.acceptance.test.md
-
+http://nightwatchjs.org/api
 
 
 
