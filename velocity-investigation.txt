@@ -102,6 +102,7 @@ TinyTest:
 meteor add tinytest
 meteor test-packages
 meteor test-packages --driver-package 'test-in-console' 
+meteor test-packages --port=3010
 
 
 npm install -g spacejam
@@ -112,4 +113,8 @@ spacejam test-packages unittests
 https://www.eventedmind.com/feed/meteor-testing-packages-with-tinytest
 https://github.com/awatson1978/meteor-cookbook/blob/master/cookbook/writing.unit.tests.md
 https://github.com/awatson1978/leaderboard-tinytests
+http://peterellisjones.com/post/101970705880/unit-testing-meteor-packages-with-tinytest
+http://howwedoapps.com/2015/07/20/how-i-develop-meteorjs-apps-part-2-testing-meteor-packages-for-humans
+
+http://practicalmeteor.com/testing-meteor-packages-command-line-travis-ci/
 
